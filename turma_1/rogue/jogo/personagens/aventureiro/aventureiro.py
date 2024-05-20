@@ -9,8 +9,8 @@ class Aventureiro:
         self.vida_max = random.randint(100, 120)
         self.vida = self.vida_max
         self.posicao = [0, 0]
-
         self.nivel = 1
+        self.xp_max = XP_POR_NIVEL * self.nivel
         self.xp = 0
 
         self.turnos_veneno = 0
